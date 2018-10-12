@@ -1,9 +1,9 @@
 import { NOTE_FRAGMENT } from "./fragments";
 import { GET_NOTES } from "./queries";
-import { saveNotes } from "./offline";
+import { saveNotes, restoreNotes } from "./offline";
 
 export const defaults = {
-  notes: []
+  notes: restoreNotes()
 };
 export const typeDefs = [
   `
