@@ -1,3 +1,5 @@
+import { NOTE_FRAGMENT } from "./fragments";
+
 export const defaults = {
   notes: [
     {
@@ -31,10 +33,13 @@ export const typeDefs = [
 ];
 export const resolvers = {
   Query: {
-    note: (_, variables, { getCacheKey }) => {
-      const id = getCacheKey({ __typename: "Note", id: variables.id });
-      console.log(id);
-      return null;
+    note: (_, variables, { cache }) => {
+      const id = cache.config.dataIdFromObject({
+        __typename: "Note",
+        id: variables.id
+      });
+      const note = cache.readFragment({ fragment: NOTE_FRAGMENT, id });
+      return note;
     }
   }
 };
