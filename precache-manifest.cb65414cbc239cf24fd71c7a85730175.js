@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/nomad-notes/static/js/runtime~main.3ba8009f.js"
   },
   {
-    "revision": "383e0eaa2a751ed3f679",
-    "url": "/nomad-notes/static/js/main.383e0eaa.chunk.js"
+    "revision": "aba9c7a84497ea4b76f6",
+    "url": "/nomad-notes/static/js/main.aba9c7a8.chunk.js"
   },
   {
     "revision": "49af322c6558c92edbac",
     "url": "/nomad-notes/static/js/1.49af322c.chunk.js"
   },
   {
-    "revision": "28dc5291e6b65e28d411c8a43334cc39",
+    "revision": "dcca1b97db48983c4380aeaf429738b2",
     "url": "/nomad-notes/index.html"
   }
 ];
