@@ -65,7 +65,7 @@ export default class NotesContainer extends React.Component {
         <Header>
           <Title>
             Nomad Notes
-            <Link to={"/add"}>
+            <Link to={"/nomad-notes/add"}>
               <Button>
                 <Plus />
               </Button>
@@ -78,7 +78,7 @@ export default class NotesContainer extends React.Component {
             {({ data }) =>
               data.notes
                 ? data.notes.map(note => (
-                    <Link to={`/note/${note.id}`} key={note.id}>
+                    <Link to={`/nomad-notes/note/${note.id}`} key={note.id}>
                       <Note>
                         <NoteTitle>{note.title}</NoteTitle>
                       </Note>

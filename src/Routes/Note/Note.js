@@ -34,7 +34,7 @@ export default class Note extends React.Component {
             <>
               <TitleComponent>
                 <Title>{data.note && data.note.title}</Title>
-                <Link to={`/edit/${data.note.id}`}>
+                <Link to={`/nomad-notes/edit/${data.note.id}`}>
                   <Button>Edit</Button>
                 </Link>
               </TitleComponent>

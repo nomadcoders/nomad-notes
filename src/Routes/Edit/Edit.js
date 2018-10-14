@@ -47,7 +47,7 @@ export default class Edit extends React.Component {
     } = this.props;
     if (title !== "" && content !== "" && id) {
       this.editNote({ variables: { title, content, id } });
-      push("/");
+      push("/nomad-notes/");
     }
   };
 }
