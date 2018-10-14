@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/nomad-notes/precache-manifest.cb65414cbc239cf24fd71c7a85730175.js"
+  "/nomad-notes/precache-manifest.697284d21df94bccae2bc9f65218aac0.js"
 );
 
 workbox.clientsClaim();
