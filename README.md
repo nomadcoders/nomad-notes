@@ -16,12 +16,12 @@ If your local system does not have the following environment, you have to do bel
 ```
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 $ nvm install 8.10.0
-$ which node
 $ npm install -g yarn
 ```
 
 ### Install project
 ```
+$ nvm use
 $ yarn install
 ```
 
