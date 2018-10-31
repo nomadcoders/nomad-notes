@@ -1,2 +1,1 @@
-import Note from "./Note";
-export default Note;
+export { default } from "./Note";
