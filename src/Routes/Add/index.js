@@ -1,2 +1,1 @@
-import Add from "./Add";
-export default Add;
+export { default } from "./Add";
